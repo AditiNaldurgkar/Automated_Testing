@@ -1,86 +1,83 @@
 pipeline {
 
-```
-agent any
+    agent any
 
-tools {
-    maven 'Maven'
-    jdk 'JDK21'
-}
-
-stages {
-
-    stage('Clone Repository') {
-        steps {
-            git 'https://github.com/AditiNaldurgkar/Automated_Testing.git'
-        }
+    tools {
+        maven 'Maven'
+        jdk 'JDK21'
     }
 
-    stage('Clean Project') {
-        steps {
-            bat 'mvn clean'
+    stages {
+
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/AditiNaldurgkar/Automated_Testing.git'
+            }
         }
-    }
 
-    stage('Run Selenium Tests') {
-        steps {
+        stage('Clean Project') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
 
-            catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
+        stage('Run Selenium Tests') {
+            steps {
 
-                bat 'mvn test'
+                catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
 
+                    bat 'mvn test'
+
+                }
+            }
+        }
+
+        stage('Generate Allure Report') {
+            steps {
+
+                bat 'if exist allure-report rmdir /s /q allure-report'
+
+                bat 'D:\\allure2\\bin\\allure.bat generate allure-results --clean -o allure-report'
+            }
+        }
+
+        stage('Run JMeter Performance Tests') {
+            steps {
+
+                bat 'if exist performance_testing\\results\\results.jtl del performance_testing\\results\\results.jtl'
+
+                bat 'if exist performance_testing\\results\\html-report rmdir /s /q performance_testing\\results\\html-report'
+
+                bat 'jmeter -n -t performance_testing\\api_test.jmx -l performance_testing\\results\\results.jtl -e -o performance_testing\\results\\html-report'
             }
         }
     }
 
-    stage('Generate Allure Report') {
-        steps {
+    post {
 
-            bat 'if exist allure-report rmdir /s /q allure-report'
+        always {
 
-            bat 'D:\\allure2\\bin\\allure.bat generate allure-results --clean -o allure-report'
+            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
+
+            archiveArtifacts artifacts: 'performance_testing/results/html-report/**', fingerprint: true
+
+            archiveArtifacts artifacts: 'performance_testing/results/results.jtl', fingerprint: true
+
+            archiveArtifacts artifacts: 'target/screenshots/**', fingerprint: true
+
+            junit 'target/surefire-reports/*.xml'
+        }
+
+        success {
+            echo 'All tests passed and reports generated successfully!'
+        }
+
+        unstable {
+            echo 'Some tests failed — check Allure report for details.'
+        }
+
+        failure {
+            echo 'Build failed — check console output.'
         }
     }
-
-    stage('Run JMeter Performance Tests') {
-        steps {
-
-            bat 'if exist performance_testing\\results\\results.jtl del performance_testing\\results\\results.jtl'
-
-            bat 'if exist performance_testing\\results\\html-report rmdir /s /q performance_testing\\results\\html-report'
-
-            bat 'jmeter -n -t performance_testing\\api_test.jmx -l performance_testing\\results\\results.jtl -e -o performance_testing\\results\\html-report'
-        }
-    }
-}
-
-post {
-
-    always {
-
-        archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
-
-        archiveArtifacts artifacts: 'performance_testing/results/html-report/**', fingerprint: true
-
-        archiveArtifacts artifacts: 'performance_testing/results/results.jtl', fingerprint: true
-
-        archiveArtifacts artifacts: 'target/screenshots/**', fingerprint: true
-
-        junit 'target/surefire-reports/*.xml'
-    }
-
-    success {
-        echo 'All tests passed and reports generated successfully!'
-    }
-
-    unstable {
-        echo 'Some tests failed — check Allure report for details.'
-    }
-
-    failure {
-        echo 'Build failed — check console output.'
-    }
-}
-```
-
 }
