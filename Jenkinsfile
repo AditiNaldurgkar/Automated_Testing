@@ -48,6 +48,20 @@ pipeline {
                 bat 'jmeter -n -t performance_testing\\api_test.jmx -l performance_testing\\results\\results.jtl -e -o performance_testing\\results\\html-report'
             }
         }
+       
+stage('Publish JMeter Report') {
+    steps {
+        publishHTML([
+            allowMissing: false,
+            alwaysLinkToLastBuild: true,
+            keepAll: true,
+            reportDir: 'performance_testing/results/html-report',
+            reportFiles: 'index.html',
+            reportName: 'JMeter Report'
+        ])
+    }
+}
+
     }
 
     post {
