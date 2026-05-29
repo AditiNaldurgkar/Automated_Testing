@@ -57,7 +57,7 @@ pipeline {
 
             archiveArtifacts artifacts: 'performance_testing/results/results.jtl', fingerprint: true
 
-            archiveArtifacts artifacts: 'target/screenshots/**', fingerprint: true
+            archiveArtifacts artifacts: 'target/screenshots/**', fingerprint: true, allowEmptyArchive: true
 
             junit 'target/surefire-reports/*.xml'
         }
