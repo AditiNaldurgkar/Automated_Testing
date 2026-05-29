@@ -26,14 +26,15 @@ pipeline {
             }
         }
 
-        stage('Generate Allure Report') {
-            steps {
-
-                bat 'if exist allure-report rmdir /s /q allure-report'
-
-                bat 'D:\\allure2\\bin\\allure.bat generate allure-results --clean -o allure-report'
-            }
-        }
+       stage('Generate Allure Report') {
+    steps {
+        allure([
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
+        ])
+    }
+}
 
         stage('Run JMeter Performance Tests') {
             steps {
