@@ -26,7 +26,7 @@ pipeline {
             }
         }
 
-       stage('Generate Allure Report') {
+    stage('Generate Allure Report') {
     steps {
         allure([
             includeProperties: false,
@@ -35,7 +35,9 @@ pipeline {
         ])
     }
 }
-
+options {
+    skipStagesAfterUnstable(false)
+}
         stage('Run JMeter Performance Tests') {
             steps {
 
