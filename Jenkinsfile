@@ -1,3 +1,4 @@
+```groovy
 pipeline {
 
     agent any
@@ -26,18 +27,18 @@ pipeline {
             }
         }
 
-    stage('Generate Allure Report') {
-    steps {
-        allure([
-            includeProperties: false,
-            jdk: '',
-            results: [[path: 'allure-results']]
-        ])
-    }
-}
-options {
-    skipStagesAfterUnstable(false)
-}
+        stage('Generate Allure Report') {
+            steps {
+
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
+                ])
+
+            }
+        }
+
         stage('Run JMeter Performance Tests') {
             steps {
 
@@ -53,8 +54,6 @@ options {
     post {
 
         always {
-
-            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
 
             archiveArtifacts artifacts: 'performance_testing/results/html-report/**', fingerprint: true
 
@@ -76,3 +75,4 @@ options {
         }
     }
 }
+```
