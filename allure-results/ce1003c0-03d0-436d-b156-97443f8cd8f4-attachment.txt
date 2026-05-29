@@ -1,1 +1,0 @@
-Login Page | Navigation: 7602ms | DOM Ready: 4107ms ⚠ SLOW

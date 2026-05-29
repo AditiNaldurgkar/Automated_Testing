@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 311.3 s <<< FAILURE! -- in TestSuite
-tests.ui.NoteEditTest.verifyNoteEditFunctionality -- Time elapsed: 16.75 s <<< FAILURE!
+Tests run: 28, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 231.8 s <<< FAILURE! -- in TestSuite
+tests.ui.NoteEditTest.verifyNoteEditFunctionality -- Time elapsed: 5.964 s <<< FAILURE!
 java.lang.AssertionError: TC-10 FAILED: Updated description not reflected in UI. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

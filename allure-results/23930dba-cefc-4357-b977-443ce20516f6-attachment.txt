@@ -1,1 +1,0 @@
-Dashboard After Login | Navigation: 5467ms | DOM Ready: 2945ms ⚠ SLOW

@@ -21,7 +21,9 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyNoteAppearsAfterCreation"/>
+          <include name="verifyNoteCreationWithEmptyDescription"/>
+          <include name="verifyNoteCreationWithSpecialCharacters"/>
+          <include name="verifyNoteCreationWithEmptyTitle"/>
         </methods>
       </class> <!-- tests.ui.NoteCreationTest -->
     </classes>
