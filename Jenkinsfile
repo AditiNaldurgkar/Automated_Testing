@@ -9,12 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/AditiNaldurgkar/Automated_Testing.git'
-            }
-        }
-
         stage('Clean Project') {
             steps {
                 bat 'mvn clean'
