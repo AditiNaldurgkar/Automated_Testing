@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Notes Automation Suite</th></tr>
+<tr><td><a href="#t0">UI - Login Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">59,900</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">UI - Note Edit Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">135,959</td><td></td><td></td></tr>
+<tr><td><a href="#t2">UI - Search And Edit Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,143</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">API - Notes API Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,726</td><td></td><td></td></tr>
+<tr><td><a href="#t4">UI - Note Creation Tests</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">237,636</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">E2E - Hybrid Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">90,612</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">23</th><th class="num">0</th><th class="num attn">2</th><th class="num attn">1</th><th class="num">546,976</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Notes Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">UI - Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.ui.LoginTest</td><td><a href="#m0">verifyLoginFunctionality</a></td><td rowspan="4">1780075562427</td><td rowspan="4">1253</td></tr><tr class="passedeven"><td><a href="#m1">verifyLoginFunctionality</a></td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginFunctionality</a></td></tr><tr class="passedeven"><td><a href="#m3">verifyLoginFunctionality</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">UI - Note Edit Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.ui.NoteEditTest</td><td><a href="#m4">verifyNoteEditFunctionality</a></td><td rowspan="1">1780075675430</td><td rowspan="1">31074</td></tr><tr><th colspan="4">UI - Note Edit Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.ui.NoteEditTest</td><td><a href="#m5">verifyEditedNotePersistsAfterRefresh</a></td><td rowspan="1">1780075716856</td><td rowspan="1">24041</td></tr><tr class="passedeven"><td><a href="#m6">verifyNoteAppearsInstantlyInUI</a></td><td rowspan="1">1780075623838</td><td rowspan="1">31064</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">UI - Search And Edit Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.ui.NoteSearchAndEditTest</td><td><a href="#m7">verifySaveWithoutChangesInEditMode</a></td><td rowspan="1">1780075747248</td><td rowspan="1">1969</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">API - Notes API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.api.ApiTest</td><td><a href="#m8">verifyApiStabilityForMultipleRequests</a></td><td rowspan="1">1780075759447</td><td rowspan="1">3934</td></tr><tr class="passedeven"><td><a href="#m9">verifyApiWithInvalidToken</a></td><td rowspan="1">1780075763384</td><td rowspan="1">785</td></tr><tr class="passedeven"><td><a href="#m10">verifyDeletionOfNonExistingNote</a></td><td rowspan="1">1780075757913</td><td rowspan="1">607</td></tr><tr class="passedeven"><td><a href="#m11">verifyGetNotesResponseStructure</a></td><td rowspan="1">1780075755265</td><td rowspan="1">1282</td></tr><tr class="passedeven"><td><a href="#m12">verifyGetNotesResponseTime</a></td><td rowspan="1">1780075758524</td><td rowspan="1">917</td></tr><tr class="passedeven"><td><a href="#m13">verifyGetNotesReturnsNotesList</a></td><td rowspan="1">1780075754504</td><td rowspan="1">756</td></tr><tr class="passedeven"><td><a href="#m14">verifySuccessfulNoteDeletion</a></td><td rowspan="1">1780075756551</td><td rowspan="1">1360</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">UI - Note Creation Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">tests.ui.NoteCreationTest</td><td><a href="#m15">verifyNoteAppearsAfterCreation</a></td><td rowspan="2">1780075746482</td><td rowspan="2">2437</td></tr><tr class="retriedeven"><td><a href="#m16">verifyNoteAppearsAfterCreation</a></td></tr><tr><th colspan="4">UI - Note Creation Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.ui.NoteCreationTest</td><td><a href="#m17">verifyNoteAppearsAfterCreation</a></td><td rowspan="1">1780075779588</td><td rowspan="1">3092</td></tr><tr class="passedeven"><td><a href="#m18">verifyNoteCreationWithEmptyDescription</a></td><td rowspan="1">1780075716899</td><td rowspan="1">23634</td></tr><tr class="passedeven"><td><a href="#m19">verifyNoteCreationWithEmptyTitle</a></td><td rowspan="1">1780075690027</td><td rowspan="1">14943</td></tr><tr class="passedeven"><td><a href="#m20">verifyNoteCreationWithSpecialCharacters</a></td><td rowspan="1">1780075637640</td><td rowspan="1">45358</td></tr><tr class="passedeven"><td><a href="#m21">verifySuccessfulNoteCreation</a></td><td rowspan="1">1780075562234</td><td rowspan="1">37598</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">E2E - Hybrid Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.e2e.Hybridtest</td><td><a href="#m22">verifyAPIDeletedNoteDisappearsFromUI</a></td><td rowspan="1">1780075825642</td><td rowspan="1">18108</td></tr><tr class="passedeven"><td><a href="#m23">verifyDeletedNoteCannotBeAccessed</a></td><td rowspan="1">1780075849666</td><td rowspan="1">4946</td></tr><tr class="passedeven"><td><a href="#m24">verifyUIAndAPIDetailsMatch</a></td><td rowspan="1">1780075806808</td><td rowspan="1">12434</td></tr><tr class="passedeven"><td><a href="#m25">verifyUICreatedNoteAppearsInAPI</a></td><td rowspan="1">1780075770140</td><td rowspan="1">31446</td></tr></tbody>
+</table>
+<h2>UI - Login Tests</h2><h3 id="m0">tests.ui.LoginTest#verifyLoginFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>an@gmail.com</td><td>123456</td><td>pass</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.ui.LoginTest#verifyLoginFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invalidemail</td><td>SuperSecretPassword!</td><td>fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.ui.LoginTest#verifyLoginFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>an@gmail.com</td><td>jbubouuho</td><td>fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.ui.LoginTest#verifyLoginFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td></td><td></td><td>fail</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UI - Note Edit Tests</h2><h3 id="m4">tests.ui.NoteEditTest#verifyNoteEditFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: TC-10 FAILED: Updated description not reflected in UI. expected [true] but found [false]
+	at tests.ui.NoteEditTest.verifyNoteEditFunctionality(NoteEditTest.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.ui.NoteEditTest#verifyEditedNotePersistsAfterRefresh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.ui.NoteEditTest#verifyNoteAppearsInstantlyInUI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UI - Search And Edit Tests</h2><h3 id="m7">tests.ui.NoteSearchAndEditTest#verifySaveWithoutChangesInEditMode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>API - Notes API Tests</h2><h3 id="m8">tests.api.ApiTest#verifyApiStabilityForMultipleRequests</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.api.ApiTest#verifyApiWithInvalidToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.api.ApiTest#verifyDeletionOfNonExistingNote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.api.ApiTest#verifyGetNotesResponseStructure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.api.ApiTest#verifyGetNotesResponseTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.api.ApiTest#verifyGetNotesReturnsNotesList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.api.ApiTest#verifySuccessfulNoteDeletion</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>UI - Note Creation Tests</h2><h3 id="m15">tests.ui.NoteCreationTest#verifyNoteAppearsAfterCreation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-primary mt-3 mt-lg-0&quot; data-testid=&quot;add-new-note&quot;&gt;...&lt;/button&gt; is not clickable at point (1129, 32). Other element would receive the click: &lt;a class=&quot;btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3&quot; href=&quot;https://istqb.expandtesting.com/&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=148.0.7778.179)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e162f6a78bbe8d7a5a649e668221e4, clickElement {id=f.F5B9E91F70FA927937AD2228E11050BF.d.6FCC63C39D3993F84E22BDC46C23F405.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62172}, goog:processID: 26340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e162f6a78bbe8d7a5a649e668221e4)] -&gt; css selector: [data-testid=&apos;add-new-note&apos;]]
+Session ID: 97e162f6a78bbe8d7a5a649e668221e4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+	at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+	at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.ui.NoteCreationTest#verifyNoteAppearsAfterCreation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-primary mt-3 mt-lg-0&quot; data-testid=&quot;add-new-note&quot;&gt;...&lt;/button&gt; is not clickable at point (1129, 32). Other element would receive the click: &lt;a class=&quot;btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3&quot; href=&quot;https://istqb.expandtesting.com/&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=148.0.7778.179)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a7a90891e9d1d92e44f5f7084995865, clickElement {id=f.225326F0457634965D005877CDBB38DA.d.DEC8CF8E619435F7A5E0E764B5CF32D7.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63695}, goog:processID: 14092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63695/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a7a90891e9d1d92e44f5f7084995865)] -&gt; css selector: [data-testid=&apos;add-new-note&apos;]]
+Session ID: 0a7a90891e9d1d92e44f5f7084995865
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+	at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+	at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.ui.NoteCreationTest#verifyNoteAppearsAfterCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.ui.NoteCreationTest#verifyNoteCreationWithEmptyDescription</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.ui.NoteCreationTest#verifyNoteCreationWithEmptyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">tests.ui.NoteCreationTest#verifyNoteCreationWithSpecialCharacters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.ui.NoteCreationTest#verifySuccessfulNoteCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>E2E - Hybrid Tests</h2><h3 id="m22">tests.e2e.Hybridtest#verifyAPIDeletedNoteDisappearsFromUI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.e2e.Hybridtest#verifyDeletedNoteCannotBeAccessed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">tests.e2e.Hybridtest#verifyUIAndAPIDetailsMatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">tests.e2e.Hybridtest#verifyUICreatedNoteAppearsInAPI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

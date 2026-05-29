@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "status": 200,
+    "message": "Login successful",
+    "data": {
+        "id": "6a17161051ccbd0297d32d47",
+        "name": "ADIN",
+        "email": "aan@gmail.com",
+        "token": "239bae2b31f24966875fc98302e21bad3ec4140671f34d81a95f35ccbc8ec882"
+    }
+}

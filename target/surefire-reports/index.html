@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Notes_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Notes Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Notes_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\aditi\Desktop\Sprint_Project_AditiN\Automated_Testing\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Notes_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Notes_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Notes_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Notes_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Notes_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Notes_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 1 failed,  2 skipped,  23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="hide-methods failed suite-Notes_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Notes_Automation_Suite -->
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="show-methods failed suite-Notes_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Notes_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Notes_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteEditTest" class="method navigator-link" hash-for-method="verifyNoteEditFunctionality">verifyNoteEditFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Notes_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="hide-methods skipped suite-Notes_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Notes_Automation_Suite -->
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="show-methods skipped suite-Notes_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Notes_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Notes_Automation_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteAppearsAfterCreation">verifyNoteAppearsAfterCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteAppearsAfterCreation">verifyNoteAppearsAfterCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Notes_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="hide-methods passed suite-Notes_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Notes_Automation_Suite -->
+                      <a href="#" panel-name="suite-Notes_Automation_Suite" class="show-methods passed suite-Notes_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Notes_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Notes_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.e2e.Hybridtest" class="method navigator-link" hash-for-method="verifyAPIDeletedNoteDisappearsFromUI">verifyAPIDeletedNoteDisappearsFromUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyApiStabilityForMultipleRequests">verifyApiStabilityForMultipleRequests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyApiWithInvalidToken">verifyApiWithInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.e2e.Hybridtest" class="method navigator-link" hash-for-method="verifyDeletedNoteCannotBeAccessed">verifyDeletedNoteCannotBeAccessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyDeletionOfNonExistingNote">verifyDeletionOfNonExistingNote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteEditTest" class="method navigator-link" hash-for-method="verifyEditedNotePersistsAfterRefresh">verifyEditedNotePersistsAfterRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyGetNotesResponseStructure">verifyGetNotesResponseStructure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyGetNotesResponseTime">verifyGetNotesResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifyGetNotesReturnsNotesList">verifyGetNotesReturnsNotesList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.LoginTest" class="method navigator-link" hash-for-method="verifyLoginFunctionality(an@gmail.com, 123456, pass)">verifyLoginFunctionality(an@gmail.com, 123456, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.LoginTest" class="method navigator-link" hash-for-method="verifyLoginFunctionality(invalidemail, SuperSecretPassword!, fail)">verifyLoginFunctionality(invalidemail, SuperSecretPassword!, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.LoginTest" class="method navigator-link" hash-for-method="verifyLoginFunctionality(an@gmail.com, jbubouuho, fail)">verifyLoginFunctionality(an@gmail.com, jbubouuho, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.LoginTest" class="method navigator-link" hash-for-method="verifyLoginFunctionality(, , fail)">verifyLoginFunctionality(, , fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteAppearsAfterCreation">verifyNoteAppearsAfterCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteEditTest" class="method navigator-link" hash-for-method="verifyNoteAppearsInstantlyInUI">verifyNoteAppearsInstantlyInUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteCreationWithEmptyDescription">verifyNoteCreationWithEmptyDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteCreationWithEmptyTitle">verifyNoteCreationWithEmptyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifyNoteCreationWithSpecialCharacters">verifyNoteCreationWithSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteSearchAndEditTest" class="method navigator-link" hash-for-method="verifySaveWithoutChangesInEditMode">verifySaveWithoutChangesInEditMode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.ui.NoteCreationTest" class="method navigator-link" hash-for-method="verifySuccessfulNoteCreation">verifySuccessfulNoteCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.api.ApiTest" class="method navigator-link" hash-for-method="verifySuccessfulNoteDeletion">verifySuccessfulNoteDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.e2e.Hybridtest" class="method navigator-link" hash-for-method="verifyUIAndAPIDetailsMatch">verifyUIAndAPIDetailsMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Notes_Automation_Suite" title="tests.e2e.Hybridtest" class="method navigator-link" hash-for-method="verifyUICreatedNoteAppearsInAPI">verifyUICreatedNoteAppearsInAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Notes_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Notes_Automation_Suite" class="panel Notes_Automation_Suite">
+          <div class="suite-Notes_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ui.NoteEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteEditFunctionality">
+                  </a> <!-- verifyNoteEditFunctionality -->
+                  <span class="method-name">verifyNoteEditFunctionality</span>
+                  <div class="stack-trace">java.lang.AssertionError: TC-10 FAILED: Updated description not reflected in UI. expected [true] but found [false]
+	at tests.ui.NoteEditTest.verifyNoteEditFunctionality(NoteEditTest.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-failed -->
+          <div class="suite-Notes_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.ui.NoteCreationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteAppearsAfterCreation">
+                  </a> <!-- verifyNoteAppearsAfterCreation -->
+                  <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-primary mt-3 mt-lg-0&quot; data-testid=&quot;add-new-note&quot;&gt;...&lt;/button&gt; is not clickable at point (1129, 32). Other element would receive the click: &lt;a class=&quot;btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3&quot; href=&quot;https://istqb.expandtesting.com/&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=148.0.7778.179)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e162f6a78bbe8d7a5a649e668221e4, clickElement {id=f.F5B9E91F70FA927937AD2228E11050BF.d.6FCC63C39D3993F84E22BDC46C23F405.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62172}, goog:processID: 26340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e162f6a78bbe8d7a5a649e668221e4)] -&gt; css selector: [data-testid=&apos;add-new-note&apos;]]
+Session ID: 97e162f6a78bbe8d7a5a649e668221e4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+	at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+	at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteAppearsAfterCreation">
+                  </a> <!-- verifyNoteAppearsAfterCreation -->
+                  <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-primary mt-3 mt-lg-0&quot; data-testid=&quot;add-new-note&quot;&gt;...&lt;/button&gt; is not clickable at point (1129, 32). Other element would receive the click: &lt;a class=&quot;btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3&quot; href=&quot;https://istqb.expandtesting.com/&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=148.0.7778.179)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a7a90891e9d1d92e44f5f7084995865, clickElement {id=f.225326F0457634965D005877CDBB38DA.d.DEC8CF8E619435F7A5E0E764B5CF32D7.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63695}, goog:processID: 14092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63695/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a7a90891e9d1d92e44f5f7084995865)] -&gt; css selector: [data-testid=&apos;add-new-note&apos;]]
+Session ID: 0a7a90891e9d1d92e44f5f7084995865
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+	at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+	at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-skipped -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(an@gmail.com, 123456, pass)">
+                  </a> <!-- verifyLoginFunctionality(an@gmail.com, 123456, pass) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(an@gmail.com,123456,pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(invalidemail, SuperSecretPassword!, fail)">
+                  </a> <!-- verifyLoginFunctionality(invalidemail, SuperSecretPassword!, fail) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(invalidemail,SuperSecretPassword!,fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(an@gmail.com, jbubouuho, fail)">
+                  </a> <!-- verifyLoginFunctionality(an@gmail.com, jbubouuho, fail) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(an@gmail.com,jbubouuho,fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(, , fail)">
+                  </a> <!-- verifyLoginFunctionality(, , fail) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(,,fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.api.ApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApiStabilityForMultipleRequests">
+                  </a> <!-- verifyApiStabilityForMultipleRequests -->
+                  <span class="method-name">verifyApiStabilityForMultipleRequests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApiWithInvalidToken">
+                  </a> <!-- verifyApiWithInvalidToken -->
+                  <span class="method-name">verifyApiWithInvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeletionOfNonExistingNote">
+                  </a> <!-- verifyDeletionOfNonExistingNote -->
+                  <span class="method-name">verifyDeletionOfNonExistingNote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetNotesResponseStructure">
+                  </a> <!-- verifyGetNotesResponseStructure -->
+                  <span class="method-name">verifyGetNotesResponseStructure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetNotesResponseTime">
+                  </a> <!-- verifyGetNotesResponseTime -->
+                  <span class="method-name">verifyGetNotesResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetNotesReturnsNotesList">
+                  </a> <!-- verifyGetNotesReturnsNotesList -->
+                  <span class="method-name">verifyGetNotesReturnsNotesList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulNoteDeletion">
+                  </a> <!-- verifySuccessfulNoteDeletion -->
+                  <span class="method-name">verifySuccessfulNoteDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.NoteCreationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteAppearsAfterCreation">
+                  </a> <!-- verifyNoteAppearsAfterCreation -->
+                  <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteCreationWithEmptyDescription">
+                  </a> <!-- verifyNoteCreationWithEmptyDescription -->
+                  <span class="method-name">verifyNoteCreationWithEmptyDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteCreationWithEmptyTitle">
+                  </a> <!-- verifyNoteCreationWithEmptyTitle -->
+                  <span class="method-name">verifyNoteCreationWithEmptyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteCreationWithSpecialCharacters">
+                  </a> <!-- verifyNoteCreationWithSpecialCharacters -->
+                  <span class="method-name">verifyNoteCreationWithSpecialCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulNoteCreation">
+                  </a> <!-- verifySuccessfulNoteCreation -->
+                  <span class="method-name">verifySuccessfulNoteCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.e2e.Hybridtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAPIDeletedNoteDisappearsFromUI">
+                  </a> <!-- verifyAPIDeletedNoteDisappearsFromUI -->
+                  <span class="method-name">verifyAPIDeletedNoteDisappearsFromUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeletedNoteCannotBeAccessed">
+                  </a> <!-- verifyDeletedNoteCannotBeAccessed -->
+                  <span class="method-name">verifyDeletedNoteCannotBeAccessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUIAndAPIDetailsMatch">
+                  </a> <!-- verifyUIAndAPIDetailsMatch -->
+                  <span class="method-name">verifyUIAndAPIDetailsMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUICreatedNoteAppearsInAPI">
+                  </a> <!-- verifyUICreatedNoteAppearsInAPI -->
+                  <span class="method-name">verifyUICreatedNoteAppearsInAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.NoteSearchAndEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySaveWithoutChangesInEditMode">
+                  </a> <!-- verifySaveWithoutChangesInEditMode -->
+                  <span class="method-name">verifySaveWithoutChangesInEditMode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+          <div class="suite-Notes_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.NoteEditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditedNotePersistsAfterRefresh">
+                  </a> <!-- verifyEditedNotePersistsAfterRefresh -->
+                  <span class="method-name">verifyEditedNotePersistsAfterRefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteAppearsInstantlyInUI">
+                  </a> <!-- verifyNoteAppearsInstantlyInUI -->
+                  <span class="method-name">verifyNoteAppearsInstantlyInUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Notes_Automation_Suite-class-passed -->
+        </div> <!-- panel Notes_Automation_Suite -->
+        <div panel-name="test-xml-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\aditi\Desktop\Sprint_Project_AditiN\Automated_Testing\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Notes Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UI - Login Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI - Login Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UI - Note Creation Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.NoteCreationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI - Note Creation Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UI - Note Edit Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.NoteEditTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI - Note Edit Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UI - Search And Edit Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.NoteSearchAndEditTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI - Search And Edit Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;API - Notes API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.api.ApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API - Notes API Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;E2E - Hybrid Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.e2e.Hybridtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2E - Hybrid Tests --&gt;
+&lt;/suite&gt; &lt;!-- Notes Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Notes Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UI - Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UI - Note Creation Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UI - Note Edit Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UI - Search And Edit Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">API - Notes API Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2E - Hybrid Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Notes Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Notes Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Notes_Automation_Suite');
+function tableData_Notes_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyNoteCreationWithSpecialCharacters')
+data.setCell(0, 2, 'tests.ui.NoteCreationTest')
+data.setCell(0, 3, 45358);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySuccessfulNoteCreation')
+data.setCell(1, 2, 'tests.ui.NoteCreationTest')
+data.setCell(1, 3, 37598);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyUICreatedNoteAppearsInAPI')
+data.setCell(2, 2, 'tests.e2e.Hybridtest')
+data.setCell(2, 3, 31446);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyNoteEditFunctionality')
+data.setCell(3, 2, 'tests.ui.NoteEditTest')
+data.setCell(3, 3, 31074);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyNoteAppearsInstantlyInUI')
+data.setCell(4, 2, 'tests.ui.NoteEditTest')
+data.setCell(4, 3, 31064);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyEditedNotePersistsAfterRefresh')
+data.setCell(5, 2, 'tests.ui.NoteEditTest')
+data.setCell(5, 3, 24041);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyNoteCreationWithEmptyDescription')
+data.setCell(6, 2, 'tests.ui.NoteCreationTest')
+data.setCell(6, 3, 23634);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAPIDeletedNoteDisappearsFromUI')
+data.setCell(7, 2, 'tests.e2e.Hybridtest')
+data.setCell(7, 3, 18108);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyNoteCreationWithEmptyTitle')
+data.setCell(8, 2, 'tests.ui.NoteCreationTest')
+data.setCell(8, 3, 14943);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUIAndAPIDetailsMatch')
+data.setCell(9, 2, 'tests.e2e.Hybridtest')
+data.setCell(9, 3, 12434);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDeletedNoteCannotBeAccessed')
+data.setCell(10, 2, 'tests.e2e.Hybridtest')
+data.setCell(10, 3, 4946);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyApiStabilityForMultipleRequests')
+data.setCell(11, 2, 'tests.api.ApiTest')
+data.setCell(11, 3, 3934);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyNoteAppearsAfterCreation')
+data.setCell(12, 2, 'tests.ui.NoteCreationTest')
+data.setCell(12, 3, 3092);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyNoteAppearsAfterCreation')
+data.setCell(13, 2, 'tests.ui.NoteCreationTest')
+data.setCell(13, 3, 2562);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyNoteAppearsAfterCreation')
+data.setCell(14, 2, 'tests.ui.NoteCreationTest')
+data.setCell(14, 3, 2437);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySaveWithoutChangesInEditMode')
+data.setCell(15, 2, 'tests.ui.NoteSearchAndEditTest')
+data.setCell(15, 3, 1969);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySuccessfulNoteDeletion')
+data.setCell(16, 2, 'tests.api.ApiTest')
+data.setCell(16, 3, 1360);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyGetNotesResponseStructure')
+data.setCell(17, 2, 'tests.api.ApiTest')
+data.setCell(17, 3, 1282);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLoginFunctionality')
+data.setCell(18, 2, 'tests.ui.LoginTest')
+data.setCell(18, 3, 1253);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLoginFunctionality')
+data.setCell(19, 2, 'tests.ui.LoginTest')
+data.setCell(19, 3, 1189);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyGetNotesResponseTime')
+data.setCell(20, 2, 'tests.api.ApiTest')
+data.setCell(20, 3, 917);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyApiWithInvalidToken')
+data.setCell(21, 2, 'tests.api.ApiTest')
+data.setCell(21, 3, 785);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyGetNotesReturnsNotesList')
+data.setCell(22, 2, 'tests.api.ApiTest')
+data.setCell(22, 3, 756);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyDeletionOfNonExistingNote')
+data.setCell(23, 2, 'tests.api.ApiTest')
+data.setCell(23, 3, 607);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyLoginFunctionality')
+data.setCell(24, 2, 'tests.ui.LoginTest')
+data.setCell(24, 3, 481);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyLoginFunctionality')
+data.setCell(25, 2, 'tests.ui.LoginTest')
+data.setCell(25, 3, 416);
+window.suiteTableData['Notes_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Notes_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Notes_Automation_Suite">
+              </div> <!-- times-div-Notes_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Notes Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Notes_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2019 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulNoteCreation</span>
+                <span class="method-start">16841 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(an@gmail.com, 123456, pass)</span>
+                <span class="method-start">17034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(an@gmail.com, jbubouuho, fail)</span>
+                <span class="method-start">27676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(, , fail)</span>
+                <span class="method-start">37370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(invalidemail, SuperSecretPassword!, fail)</span>
+                <span class="method-start">49480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49965 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">59863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteAppearsInstantlyInUI</span>
+                <span class="method-start">78445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteCreationWithSpecialCharacters</span>
+                <span class="method-start">92247 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">110445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNoteEditFunctionality</span>
+                <span class="method-start">130037 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">138080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteCreationWithEmptyTitle</span>
+                <span class="method-start">144634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">159913 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">161713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditedNotePersistsAfterRefresh</span>
+                <span class="method-start">171463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteCreationWithEmptyDescription</span>
+                <span class="method-start">171506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195504 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195511 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteSearchAndEditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195901 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                <span class="method-start">201089 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteSearchAndEditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySaveWithoutChangesInEditMode</span>
+                <span class="method-start">201855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">apiSetup</span>
+                <span class="method-start">204050 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetNotesReturnsNotesList</span>
+                <span class="method-start">209111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetNotesResponseStructure</span>
+                <span class="method-start">209872 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">211154 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulNoteDeletion</span>
+                <span class="method-start">211158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeletionOfNonExistingNote</span>
+                <span class="method-start">212520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetNotesResponseTime</span>
+                <span class="method-start">213131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyApiStabilityForMultipleRequests</span>
+                <span class="method-start">214054 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                <span class="method-start">217349 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyApiWithInvalidToken</span>
+                <span class="method-start">217991 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.e2e.Hybridtest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getApiToken</span>
+                <span class="method-start">218786 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">219564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUICreatedNoteAppearsInAPI</span>
+                <span class="method-start">224747 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.NoteCreationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">226775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteAppearsAfterCreation</span>
+                <span class="method-start">234195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237290 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.e2e.Hybridtest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">256471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUIAndAPIDetailsMatch</span>
+                <span class="method-start">261415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">273852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">274031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAPIDeletedNoteDisappearsFromUI</span>
+                <span class="method-start">280249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">298359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">298651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDeletedNoteCannotBeAccessed</span>
+                <span class="method-start">304273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">309222 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

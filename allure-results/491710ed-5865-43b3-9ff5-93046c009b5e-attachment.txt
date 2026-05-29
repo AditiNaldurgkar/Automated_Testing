@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "status": 200,
+    "message": "Note successfully created",
+    "data": {
+        "id": "6a19ccef51ccbd0297d4a736",
+        "title": "Note to Delete",
+        "description": "Created for deletion test",
+        "category": "Home",
+        "completed": false,
+        "created_at": "2026-05-29T17:29:19.606Z",
+        "updated_at": "2026-05-29T17:29:19.606Z",
+        "user_id": "6a17161051ccbd0297d32d47"
+    }
+}

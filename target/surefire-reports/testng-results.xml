@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="28" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-29T22:55:45 IST" name="Notes Automation Suite" finished-at="2026-05-29T23:00:54 IST" duration-ms="309490">
+    <groups>
+    </groups>
+    <test started-at="2026-05-29T22:55:45 IST" name="UI - Login Tests" finished-at="2026-05-29T22:56:45 IST" duration-ms="59900">
+      <class name="tests.ui.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:55:47 IST" name="setup" finished-at="2026-05-29T22:56:02 IST" duration-ms="15008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:02 IST" name="verifyLoginFunctionality" data-provider="loginData" finished-at="2026-05-29T22:56:03 IST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[an@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:03 IST" name="tearDown" finished-at="2026-05-29T22:56:04 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:04 IST" name="setup" finished-at="2026-05-29T22:56:13 IST" duration-ms="9044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:13 IST" name="verifyLoginFunctionality" data-provider="loginData" finished-at="2026-05-29T22:56:13 IST" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[an@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jbubouuho]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:13 IST" name="tearDown" finished-at="2026-05-29T22:56:13 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:13 IST" name="setup" finished-at="2026-05-29T22:56:22 IST" duration-ms="8961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:22 IST" name="verifyLoginFunctionality" data-provider="loginData" finished-at="2026-05-29T22:56:23 IST" duration-ms="1189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:23 IST" name="tearDown" finished-at="2026-05-29T22:56:24 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:24 IST" name="setup" finished-at="2026-05-29T22:56:34 IST" duration-ms="10257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:34 IST" name="verifyLoginFunctionality" data-provider="loginData" finished-at="2026-05-29T22:56:35 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTest@4c98a6d5]" started-at="2026-05-29T22:56:35 IST" name="tearDown" finished-at="2026-05-29T22:56:45 IST" duration-ms="9837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.LoginTest -->
+    </test> <!-- UI - Login Tests -->
+    <test started-at="2026-05-29T22:56:45 IST" name="UI - Note Edit Tests" finished-at="2026-05-29T22:59:01 IST" duration-ms="135959">
+      <class name="tests.ui.NoteEditTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:56:45 IST" name="setup" finished-at="2026-05-29T22:57:03 IST" duration-ms="18581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteAppearsInstantlyInUI()[pri:1, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:57:03 IST" name="verifyNoteAppearsInstantlyInUI" finished-at="2026-05-29T22:57:34 IST" duration-ms="31064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteAppearsInstantlyInUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:57:34 IST" name="tearDown" finished-at="2026-05-29T22:57:35 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:57:35 IST" name="setup" finished-at="2026-05-29T22:57:55 IST" duration-ms="19590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteEditFunctionality()[pri:2, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:57:55 IST" name="verifyNoteEditFunctionality" finished-at="2026-05-29T22:58:26 IST" duration-ms="31074" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TC-10 FAILED: Updated description not reflected in UI. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TC-10 FAILED: Updated description not reflected in UI. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.ui.NoteEditTest.verifyNoteEditFunctionality(NoteEditTest.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteEditFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:58:26 IST" name="tearDown" finished-at="2026-05-29T22:58:27 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:58:27 IST" name="setup" finished-at="2026-05-29T22:58:36 IST" duration-ms="9747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEditedNotePersistsAfterRefresh()[pri:3, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:58:36 IST" name="verifyEditedNotePersistsAfterRefresh" finished-at="2026-05-29T22:59:00 IST" duration-ms="24041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditedNotePersistsAfterRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteEditTest@35d3ab60]" started-at="2026-05-29T22:59:00 IST" name="tearDown" finished-at="2026-05-29T22:59:01 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.NoteEditTest -->
+    </test> <!-- UI - Note Edit Tests -->
+    <test started-at="2026-05-29T22:59:01 IST" name="UI - Search And Edit Tests" finished-at="2026-05-29T22:59:09 IST" duration-ms="8143">
+      <class name="tests.ui.NoteSearchAndEditTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteSearchAndEditTest@706cb08]" started-at="2026-05-29T22:59:01 IST" name="setup" finished-at="2026-05-29T22:59:07 IST" duration-ms="5949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySaveWithoutChangesInEditMode()[pri:2, instance:tests.ui.NoteSearchAndEditTest@706cb08]" started-at="2026-05-29T22:59:07 IST" name="verifySaveWithoutChangesInEditMode" finished-at="2026-05-29T22:59:09 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveWithoutChangesInEditMode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteSearchAndEditTest@706cb08]" started-at="2026-05-29T22:59:09 IST" name="tearDown" finished-at="2026-05-29T22:59:09 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.NoteSearchAndEditTest -->
+    </test> <!-- UI - Search And Edit Tests -->
+    <test started-at="2026-05-29T22:59:09 IST" name="API - Notes API Tests" finished-at="2026-05-29T22:59:24 IST" duration-ms="14726">
+      <class name="tests.api.ApiTest">
+        <test-method is-config="true" signature="apiSetup()[pri:0, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:09 IST" name="apiSetup" finished-at="2026-05-29T22:59:14 IST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiSetup -->
+        <test-method signature="verifyGetNotesReturnsNotesList()[pri:1, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:14 IST" name="verifyGetNotesReturnsNotesList" finished-at="2026-05-29T22:59:15 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetNotesReturnsNotesList -->
+        <test-method signature="verifyGetNotesResponseStructure()[pri:2, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:15 IST" name="verifyGetNotesResponseStructure" finished-at="2026-05-29T22:59:16 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetNotesResponseStructure -->
+        <test-method signature="verifySuccessfulNoteDeletion()[pri:3, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:16 IST" name="verifySuccessfulNoteDeletion" finished-at="2026-05-29T22:59:17 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulNoteDeletion -->
+        <test-method signature="verifyDeletionOfNonExistingNote()[pri:4, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:17 IST" name="verifyDeletionOfNonExistingNote" finished-at="2026-05-29T22:59:18 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletionOfNonExistingNote -->
+        <test-method signature="verifyGetNotesResponseTime()[pri:5, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:18 IST" name="verifyGetNotesResponseTime" finished-at="2026-05-29T22:59:19 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetNotesResponseTime -->
+        <test-method signature="verifyApiStabilityForMultipleRequests()[pri:6, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:19 IST" name="verifyApiStabilityForMultipleRequests" finished-at="2026-05-29T22:59:23 IST" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApiStabilityForMultipleRequests -->
+        <test-method signature="verifyApiWithInvalidToken()[pri:7, instance:tests.api.ApiTest@51827393]" started-at="2026-05-29T22:59:23 IST" name="verifyApiWithInvalidToken" finished-at="2026-05-29T22:59:24 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApiWithInvalidToken -->
+      </class> <!-- tests.api.ApiTest -->
+    </test> <!-- API - Notes API Tests -->
+    <test started-at="2026-05-29T22:55:45 IST" name="UI - Note Creation Tests" finished-at="2026-05-29T22:59:42 IST" duration-ms="237636">
+      <class name="tests.ui.NoteCreationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:55:45 IST" name="setup" finished-at="2026-05-29T22:56:01 IST" duration-ms="16593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySuccessfulNoteCreation()[pri:1, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:56:02 IST" name="verifySuccessfulNoteCreation" finished-at="2026-05-29T22:56:39 IST" duration-ms="37598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulNoteCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:56:39 IST" name="tearDown" finished-at="2026-05-29T22:57:11 IST" duration-ms="31369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:57:11 IST" name="setup" finished-at="2026-05-29T22:57:17 IST" duration-ms="6426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteCreationWithSpecialCharacters()[pri:2, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:57:17 IST" name="verifyNoteCreationWithSpecialCharacters" finished-at="2026-05-29T22:58:02 IST" duration-ms="45358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteCreationWithSpecialCharacters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:02 IST" name="tearDown" finished-at="2026-05-29T22:58:03 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:03 IST" name="setup" finished-at="2026-05-29T22:58:10 IST" duration-ms="6546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteCreationWithEmptyTitle()[pri:3, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:10 IST" name="verifyNoteCreationWithEmptyTitle" finished-at="2026-05-29T22:58:24 IST" duration-ms="14943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteCreationWithEmptyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:24 IST" name="tearDown" finished-at="2026-05-29T22:58:25 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:25 IST" name="setup" finished-at="2026-05-29T22:58:36 IST" duration-ms="11591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteCreationWithEmptyDescription()[pri:4, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:58:36 IST" name="verifyNoteCreationWithEmptyDescription" finished-at="2026-05-29T22:59:00 IST" duration-ms="23634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteCreationWithEmptyDescription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:00 IST" name="tearDown" finished-at="2026-05-29T22:59:00 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:00 IST" name="setup" finished-at="2026-05-29T22:59:06 IST" duration-ms="5582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="verifyNoteAppearsAfterCreation()[pri:5, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:06 IST" name="verifyNoteAppearsAfterCreation" finished-at="2026-05-29T22:59:08 IST" duration-ms="2437" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn btn-primary mt-3 mt-lg-0" data-testid="add-new-note">...</button> is not clickable at point (1129, 32). Other element would receive the click: <a class="btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://istqb.expandtesting.com/">...</a>
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e162f6a78bbe8d7a5a649e668221e4, clickElement {id=f.F5B9E91F70FA927937AD2228E11050BF.d.6FCC63C39D3993F84E22BDC46C23F405.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62172}, goog:processID: 26340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e162f6a78bbe8d7a5a649e668221e4)] -> css selector: [data-testid='add-new-note']]
+Session ID: 97e162f6a78bbe8d7a5a649e668221e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-primary mt-3 mt-lg-0" data-testid="add-new-note">...</button> is not clickable at point (1129, 32). Other element would receive the click: <a class="btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://istqb.expandtesting.com/">...</a>
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97e162f6a78bbe8d7a5a649e668221e4, clickElement {id=f.F5B9E91F70FA927937AD2228E11050BF.d.6FCC63C39D3993F84E22BDC46C23F405.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62172}, goog:processID: 26340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97e162f6a78bbe8d7a5a649e668221e4)] -> css selector: [data-testid='add-new-note']]
+Session ID: 97e162f6a78bbe8d7a5a649e668221e4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteAppearsAfterCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:16 IST" name="tearDown" finished-at="2026-05-29T22:59:16 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:16 IST" name="setup" finished-at="2026-05-29T22:59:22 IST" duration-ms="6195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="verifyNoteAppearsAfterCreation()[pri:5, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:22 IST" name="verifyNoteAppearsAfterCreation" finished-at="2026-05-29T22:59:25 IST" duration-ms="2562" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn btn-primary mt-3 mt-lg-0" data-testid="add-new-note">...</button> is not clickable at point (1129, 32). Other element would receive the click: <a class="btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://istqb.expandtesting.com/">...</a>
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a7a90891e9d1d92e44f5f7084995865, clickElement {id=f.225326F0457634965D005877CDBB38DA.d.DEC8CF8E619435F7A5E0E764B5CF32D7.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63695}, goog:processID: 14092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63695/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a7a90891e9d1d92e44f5f7084995865)] -> css selector: [data-testid='add-new-note']]
+Session ID: 0a7a90891e9d1d92e44f5f7084995865]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-primary mt-3 mt-lg-0" data-testid="add-new-note">...</button> is not clickable at point (1129, 32). Other element would receive the click: <a class="btn btn-sut d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://istqb.expandtesting.com/">...</a>
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a7a90891e9d1d92e44f5f7084995865, clickElement {id=f.225326F0457634965D005877CDBB38DA.d.DEC8CF8E619435F7A5E0E764B5CF32D7.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aditi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63695}, goog:processID: 14092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63695/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a7a90891e9d1d92e44f5f7084995865)] -> css selector: [data-testid='add-new-note']]
+Session ID: 0a7a90891e9d1d92e44f5f7084995865
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at utils.SelfHealingDriver.click(SelfHealingDriver.java:47)
+at pages.DashboardPage.clickAddNote(DashboardPage.java:40)
+at tests.ui.NoteCreationTest.verifyNoteAppearsAfterCreation(NoteCreationTest.java:176)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteAppearsAfterCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:31 IST" name="tearDown" finished-at="2026-05-29T22:59:32 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:32 IST" name="setup" finished-at="2026-05-29T22:59:39 IST" duration-ms="7418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoteAppearsAfterCreation()[pri:5, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:39 IST" name="verifyNoteAppearsAfterCreation" finished-at="2026-05-29T22:59:42 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoteAppearsAfterCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NoteCreationTest@24fabd0f]" started-at="2026-05-29T22:59:42 IST" name="tearDown" finished-at="2026-05-29T22:59:42 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.NoteCreationTest -->
+    </test> <!-- UI - Note Creation Tests -->
+    <test started-at="2026-05-29T22:59:24 IST" name="E2E - Hybrid Tests" finished-at="2026-05-29T23:00:54 IST" duration-ms="90612">
+      <class name="tests.e2e.Hybridtest">
+        <test-method is-config="true" signature="getApiToken()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T22:59:24 IST" name="getApiToken" finished-at="2026-05-29T22:59:24 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiToken -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T22:59:24 IST" name="setup" finished-at="2026-05-29T22:59:30 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUICreatedNoteAppearsInAPI()[pri:1, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T22:59:30 IST" name="verifyUICreatedNoteAppearsInAPI" finished-at="2026-05-29T23:00:01 IST" duration-ms="31446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUICreatedNoteAppearsInAPI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:01 IST" name="tearDown" finished-at="2026-05-29T23:00:01 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:01 IST" name="setup" finished-at="2026-05-29T23:00:06 IST" duration-ms="4941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUIAndAPIDetailsMatch()[pri:2, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:06 IST" name="verifyUIAndAPIDetailsMatch" finished-at="2026-05-29T23:00:19 IST" duration-ms="12434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUIAndAPIDetailsMatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:19 IST" name="tearDown" finished-at="2026-05-29T23:00:19 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:19 IST" name="setup" finished-at="2026-05-29T23:00:25 IST" duration-ms="6217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAPIDeletedNoteDisappearsFromUI()[pri:3, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:25 IST" name="verifyAPIDeletedNoteDisappearsFromUI" finished-at="2026-05-29T23:00:43 IST" duration-ms="18108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAPIDeletedNoteDisappearsFromUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:43 IST" name="tearDown" finished-at="2026-05-29T23:00:44 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:44 IST" name="setup" finished-at="2026-05-29T23:00:49 IST" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDeletedNoteCannotBeAccessed()[pri:4, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:49 IST" name="verifyDeletedNoteCannotBeAccessed" finished-at="2026-05-29T23:00:54 IST" duration-ms="4946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletedNoteCannotBeAccessed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.Hybridtest@17814b1c]" started-at="2026-05-29T23:00:54 IST" name="tearDown" finished-at="2026-05-29T23:00:54 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.e2e.Hybridtest -->
+    </test> <!-- E2E - Hybrid Tests -->
+  </suite> <!-- Notes Automation Suite -->
+</testng-results>
