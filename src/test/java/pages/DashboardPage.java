@@ -2,11 +2,17 @@ package pages;
 import drivers.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import utils.SelfHealingDriver;
 import utils.Waits;
 import utils.click_util;
+
+import java.time.Duration;
 import java.util.List;
 
 public class DashboardPage {
@@ -48,17 +54,18 @@ public class DashboardPage {
                 By.cssSelector("[data-testid='note-title']")
         );
     }
-    public void waitForDashboardToLoad() {
-        try {
+  public void waitForDashboardToLoad() {
+    try {
+        Waits.waitForVisibility(addNoteButton);
+        new WebDriverWait(getDriver(), Duration.ofSeconds(10))
+            .until(ExpectedConditions.refreshed(
+                ExpectedConditions.presenceOfAllElementsLocatedBy(noteTitles)
+            ));
 
-            Waits.waitForVisibility(addNoteButton);
-
-            Waits.waitForPresenceOfAll(noteTitles);
-
-        } catch (Exception e) {  //no notes case
-
-        }
+    } catch (Exception e) {
+    
     }
+}
     public void clickEditNote(String noteTitle) {
 
         Waits.waitForPresenceOfAll(noteTitles);
@@ -147,31 +154,28 @@ public class DashboardPage {
 
         return false;
     }
-    public boolean isDescriptionPresent(String descriptionText) {
+ public boolean isDescriptionPresent(String descriptionText) {
+    try {
+        // ✅ Wait until ANY description element contains the exact updated text
+        // This is the missing wait — your old method never waited for new content
+        new WebDriverWait(getDriver(), Duration.ofSeconds(10))
+            .until(driver -> {
+                List<WebElement> descs = driver.findElements(noteDescriptions);
+                return descs.stream()
+                    .anyMatch(el -> el.getText().trim()
+                        .contains(descriptionText.trim()));
+            });
 
-        try {
+        return true;
 
-            Waits.waitForDescriptionsVisible(noteDescriptions);
-
-            List<WebElement> descs =
-                    getDriver().findElements(noteDescriptions);
-
-            for (WebElement desc : descs) {
-
-                if (desc.getText().trim()
-                        .contains(descriptionText.trim())) {
-
-                    return true;
-                }
-            }
-
-        } catch (Exception e) {
-
-            // No descriptions 
-        }
+    } catch (TimeoutException e) {
 
         return false;
+
+    } catch (Exception e) {
+        return false;
     }
+}
     public int getNoteCount() {
         try {
 
